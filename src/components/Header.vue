@@ -1,18 +1,13 @@
 <template>
-    <header class="header" :class="{sticky: $route.path === '/' || $route.path.includes('/projects/')}">
+    <header class="header sticky">
         <div class="container">
             <div class="left">
                 <g-link :to="{ name: 'home' }" class="home-link">
-                    <img 
-                        src="../../static/logo.svg"
-                        :alt="settings.site_name" 
-                        class="logo"
-                    />
+                    <h3>Piedras Negras</h3>
                 </g-link>
             </div>
             <nav class="nav right">
-                <g-link class="nav__link" to="/journal">Journal</g-link>
-                <g-link class="nav__link" to="/contact">Say Hi!</g-link>
+                <g-link class="nav__link" to="/contact">¿Cómo usar Zoom?</g-link>
             </nav>
         </div>
     </header>
@@ -32,8 +27,10 @@ export default {
 <style scoped>
 .header {
     position: relative;
-    height: 6rem;
+    height: 4rem;
     z-index: 10;
+    background: white;
+    border-bottom: 1px solid grey;
 }
 .header.sticky {
     position: fixed;
@@ -49,6 +46,7 @@ export default {
 }
 .home-link {
     text-decoration: none;
+    color: #004b91;
 }
 .logo {
     height: 1.5rem;

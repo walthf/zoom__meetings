@@ -1,10 +1,13 @@
 <template>
   <Layout>
     <div class="container">
-
       <div class="contact-header">
-        <h1 class="contact-title">¿Cómo usar Zoom?</h1>
-        <p>Aquí serán colocados los videos con instrucciones para usar Zoom...</p>
+        <h2 class="hero-subtitle">Paso 2 de 2</h2>
+        <h1 class="contact-title">Disfruta tu reunión</h1>
+        <p>Recuerda mantener tu micrófono en silencio, solamente actívalo cuando vayas a comentar. Para iniciar Zoom y entrar a la conferencia haz click en el botón.</p>
+        <a href="/conferencia" class="entrar">
+          Entrar a la conferencia
+       </a>
       </div>
     </div>
   </Layout>
@@ -15,16 +18,40 @@ export default {}
 </script>
 
 <style scoped>
+.hero-subtitle {
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.8;
+    padding: 0;
+    margin: 0 0 2rem 0;
+    opacity: 0.6;
+}
+.entrar {
+  background-color:#1db954;  
+  border-radius: 4px;
+  transition: .2s ease;
+  padding: 1rem;
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.entrar:hover {
+  background-color:rgb(26, 126, 61); 
+}
+
 p { 
-  line-height: 1.8rem;;
+  line-height: 1.8rem;
+  margin-bottom: 2rem;;
 }
 
 .contact-header {
   padding: 8rem 0 8rem 0;
 }
 .contact-title {
-  font-size: 4rem;
-  margin: 0 0 4rem 0;
+  font-size: 3rem;
+  margin: 0 0 2rem 0;
   padding: 0;
 }
 .sender-info {

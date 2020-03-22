@@ -2,7 +2,7 @@
   <div class="layout" :class="{ 'sticky-header': $route.path === '/' }">
     <Header />
     <slot/>
-    <Footer />
+    <!-- <Footer /> -->
   </div>
 </template>
 
@@ -20,6 +20,7 @@ export default {
 
 
 <style>
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800&display=swap');
 * {
   box-sizing: border-box;
 }
@@ -27,9 +28,9 @@ export default {
 body {
   --color-base: rgb(255, 255, 255);
   --color-base-1: rgb(243, 243, 243);
-  --color-contrast: rgb(0, 0, 0);
+  --color-contrast: #191414;
   --color-contrast-1: rgb(43, 43, 43);
-  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  font-family: 'Montserrat', sans-serif;
   margin:0;
   padding: 0;
   font-size: 16px;

@@ -2,9 +2,9 @@
   <Layout>
     <div class="container">
       <Hero />
-      <ProjectsGrid :projects="$page.projects.edges" />
+      <Next />
     </div>
-    <LatestJournals :journals="$page.journals.edges" />
+
   </Layout>
 </template>
 

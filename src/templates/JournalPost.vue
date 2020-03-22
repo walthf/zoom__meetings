@@ -60,7 +60,7 @@ export default {
   max-width: 840px;
 }
 .journal-header {
-  padding: 2rem 0 4rem 0;
+  padding: 8rem 0 4rem 0;
 }
 .journal-title {
   font-size: 4rem;

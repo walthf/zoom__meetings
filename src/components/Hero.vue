@@ -1,23 +1,31 @@
 <template>
     <div class="hero">
-        <h1 class="hero-title" v-html="settings.hero_title" />
-        <h2 class="hero-subtitle" v-html="settings.hero_subtitle" />
+        <h2 class="hero-subtitle">Paso 1 de 2</h2>
+        <h1 class="hero-title">Reporta tu asistencia</h1>
+        <p class="hero-subtitle">Antes de ingresar a la conferencia por favor reporta tu asistencia, esto nos ayudará a mantener nuestros registros en orden. Si por alguna razón tu sesión en Zoom fue cerrada y vuelves a este sitio para entrar de nuevo, entonces ya no es necesario que reportes tu asistecia.</p>
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdSlTGRb71bUFjlWCIyVFsaMn5yVbiUg7l4CFlv_cmrPM4zJg/viewform?embedded=true" width="100%" height="750" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
+        <Next />
     </div>
 </template>
 
 <script>
+import Next from "~/components/Next"
+
 export default {
   data() {
     return {
       settings: require("../../data/theme.json")
     }
+  },
+  components: {
+    Next
   }
 }
 </script>
 
 <style>
 .hero {
-    text-align: center;
+    text-align: left;
     width: 480px;
     max-width: 100%;
     margin: 0 auto;
@@ -36,11 +44,10 @@ export default {
     padding: 0;
 }
 .hero-subtitle {
-    font-size: 1.15em;
+    font-size: 1em;
     font-weight: 400;
-    line-height: 1.68;
+    line-height: 1.8;
     padding: 0;
-    margin: 0;
-    opacity: 0.6;
+    margin: 0 0 2rem 0;
 }
 </style>

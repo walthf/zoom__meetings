@@ -31,6 +31,19 @@ module.exports = {
           externalLinksRel: ["nofollow", "noopener", "noreferrer"]
         }
       }
+    },
+    {
+      use: 'gridsome-plugin-sass-resources-loader',
+      options: {
+        // provide path to the file with resources
+        resources: '@/path/to/resources.scss',
+
+        // or array of paths
+        resources: ['@/path/to/first-resources.sass', '@/path/to/second-resources.scss'],
+
+        // or from the npm package
+        resources: ['my-package/sass/resources.scss']
+      }
     }
   ],
   transformers: {
