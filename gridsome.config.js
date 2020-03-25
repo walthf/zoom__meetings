@@ -2,11 +2,11 @@
 // Learn more: https://gridsome.org/docs/config
 
 module.exports = {
-  siteName: "Portfolio",
-  siteUrl: `https://www.itsnwa.com`,
+  siteName: "Reuniones Piedras Negras",
+  siteUrl: `zoom`,
   host: "0.0.0.0",
   titleTemplate: "%s - NWA",
-  siteDescription: "Creative technologist",
+  siteDescription: "Reuniones Piedras Negras",
   plugins: [
     {
       use: "@gridsome/source-filesystem",
