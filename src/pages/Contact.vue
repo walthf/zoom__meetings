@@ -4,7 +4,7 @@
 
       <div class="contact-header">
         <h1 class="contact-title">¿Cómo usar Zoom?</h1>
-        <p>Aquí serán colocados los videos con instrucciones para usar Zoom...</p>
+        <p>Próximamente</p>
       </div>
     </div>
   </Layout>

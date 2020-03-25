@@ -3,7 +3,7 @@
         <h2 class="hero-subtitle">Paso 1 de 2</h2>
         <h1 class="hero-title">Reporta tu asistencia</h1>
         <p class="hero-subtitle">Antes de ingresar a la conferencia por favor reporta tu asistencia, esto nos ayudará a mantener nuestros registros en orden. Si por alguna razón tu sesión en Zoom fue cerrada y vuelves a este sitio para entrar de nuevo, entonces ya no es necesario que reportes tu asistecia.</p>
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdSlTGRb71bUFjlWCIyVFsaMn5yVbiUg7l4CFlv_cmrPM4zJg/viewform?embedded=true" width="100%" height="750" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdSlTGRb71bUFjlWCIyVFsaMn5yVbiUg7l4CFlv_cmrPM4zJg/viewform?embedded=true" width="100%" height="800" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
         <Next />
     </div>
 </template>
