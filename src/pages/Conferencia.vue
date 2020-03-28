@@ -8,6 +8,8 @@
         <a href="https://us04web.zoom.us/j/5388468063" class="entrar">
           Entrar a la conferencia
        </a>
+       <p class="zoom-id-instruction">Si Zoom te lo solicita, utiliza el siguiente ID</p>
+       <h2 class="zoom-id">5388468063</h2>
       </div>
     </div>
   </Layout>
@@ -18,6 +20,12 @@ export default {}
 </script>
 
 <style scoped>
+.zoom-id-instruction {
+  margin-bottom: 1rem;
+}
+.zoom-id {
+  color: #1db954;  
+}
 .hero-subtitle {
     font-size: 1em;
     font-weight: 400;
@@ -35,6 +43,7 @@ export default {}
   color: white;
   text-decoration: none;
   display: inline-block;
+  margin-bottom: 1rem;
 }
 
 .entrar:hover {
