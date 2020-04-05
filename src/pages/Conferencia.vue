@@ -5,7 +5,7 @@
         <h2 class="hero-subtitle">Paso 2 de 2</h2>
         <h1 class="contact-title">Disfruta tu reunión</h1>
         <p>Recuerda mantener tu micrófono en silencio, solamente actívalo cuando vayas a comentar. Para iniciar Zoom y entrar a la conferencia haz click en el botón.</p>
-        <a href="https://us04web.zoom.us/j/5388468063" class="entrar">
+        <a href="https://us04web.zoom.us/j/5388468063?pwd=OVN0cnVwWE02SjQyOWNNV09iY3VTQT09" class="entrar">
           Entrar a la conferencia
        </a>
        <p class="zoom-id-instruction">Si Zoom te lo solicita, utiliza el siguiente ID</p>
