@@ -5,7 +5,7 @@ module.exports = {
   siteName: "Reuniones Piedras Negras",
   siteUrl: `zoom`,
   host: "0.0.0.0",
-  titleTemplate: "%s - NWA",
+  titleTemplate: "%s ",
   siteDescription: "Reuniones Piedras Negras",
   plugins: [
     {
