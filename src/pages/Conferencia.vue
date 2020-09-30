@@ -4,12 +4,12 @@
       <div class="contact-header">
         <h2 class="hero-subtitle">Paso 2 de 2</h2>
         <h1 class="contact-title">Disfruta tu reunión</h1>
-        <p>Recuerda mantener tu micrófono en silencio, solamente actívalo cuando vayas a comentar. Para iniciar Zoom y entrar a la conferencia haz click en el botón.</p>
-        <a href="https://us04web.zoom.us/j/5388468063?pwd=OVN0cnVwWE02SjQyOWNNV09iY3VTQT09" class="entrar">
+        <p>Recuerda mantener tu micrófono en silencio, solamente actívalo cuando vayas a comentar.</p>
+        <a href="https://us02web.zoom.us/j/5388468063?pwd=ZEFhR283akVQdnp6OWpRNnl4dWNmQT09" class="entrar">
           Entrar a la conferencia
        </a>
-       <p class="zoom-id-instruction">Si Zoom te lo solicita, utiliza el siguiente ID</p>
-       <h2 class="zoom-id">5388468063</h2>
+       <p class="zoom-id-instruction">Si Zoom te lo solicita, utiliza el siguiente código</p>
+       <h2 class="zoom-id">271531</h2>
       </div>
     </div>
   </Layout>
