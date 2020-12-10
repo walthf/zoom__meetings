@@ -9,7 +9,7 @@
           Entrar a la conferencia
        </a>
        <p class="zoom-id-instruction">Si Zoom te lo solicita, utiliza el siguiente código</p>
-       <h2 class="zoom-id">271531</h2>
+       <h2 class="zoom-id">271530</h2>
       </div>
     </div>
   </Layout>
