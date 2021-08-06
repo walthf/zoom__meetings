@@ -44,6 +44,14 @@ export default {
     Hero,
     ProjectsGrid,
     LatestJournals
+  },
+  methods: {
+    redirect(){
+    	window.location.replace("https://reuniones.onrender.com/")
+    }
+  },
+  mounted(){
+   this.redirect();
   }
 }
 </script>
